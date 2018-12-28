@@ -11,7 +11,7 @@ body {
 }
 
 .myname {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 26px;
   color: #fafafa;
   padding-top: 22px;
@@ -24,29 +24,33 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #000064;
+    background-color: rgba(0, 0, 51, .70);
     border: 0;
 }
 
-.navbar-default .navbar-collapse {
+/* .navbar-default .navbar-collapse {
     border-color: #fafafa;
-}
+} */
+
 .navbar-default .navbar-toggle {
-    margin-top: 25px;
-    
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-color: transparent;
 } 
 
-
-/*.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover {
     background-color: orange;
+    border-color: orange;
 } 
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: orange;
-}*/
+    background-color: #fafafa;
+}
 
 .navbar-default .navbar-nav a {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     color: #fafafa;
 }
@@ -56,7 +60,7 @@ body {
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fafafa;
     background: transparent;
-    padding-top: 5px;
+    
 }
 
 
@@ -113,8 +117,8 @@ body {
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 150px;
+    margin-bottom: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -148,7 +152,7 @@ body {
 /* callout buttons */
 
 .btn--cta {
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 25px;
     width: 175px;
     margin:5px;
@@ -183,16 +187,24 @@ body {
 
 #skills {
     height: 100vh;
-    background-color: #d2d2d2;
-    display: block;
+    background-color: #FFF8D1;
+    margin-top: 0px;
+    padding: 20px;
 }
 
 .header-skills {
     text-align: center;
-    padding-bottom: 80px;
-    padding-top: 100px;
-    margin-top: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 120px;
     color: steelblue;
+}
+
+.prog-column {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 150px;
 }
 
 .progress {
@@ -200,10 +212,10 @@ body {
     height: 25px;
 }
 
-.rightside .progress {
+/* .rightside .progress {
     display: inline-block;
     margin-right: 50px;
-}
+} */
 
 .progress-type {
     position: absolute;
@@ -215,7 +227,19 @@ body {
 }
 
 .progress-section {
-    margin: 40px 20px;
+    height: 100vh;
+    background-color: #fff000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 80px;
+    color: #000064;
+    
 }
 
 .skills .glyphicon {
@@ -223,6 +247,7 @@ body {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+    background-color: #FFF8D1;
 }
 
 
@@ -569,6 +594,17 @@ footer .cv-pdf i:hover {
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+  
+  .navbar {
+    width: 100%;
+    background-color: #000064;
+  }
 }
 
 

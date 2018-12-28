@@ -1,4 +1,4 @@
-This is my first frontend project - Abdul Haseeb CV. 
+This is my first frontend project - <strong>Abdul Haseeb CV.</strong> 
 
 The code and structure is based on bootstrap, and I have made changes to the html and css
 of the code. 
@@ -34,6 +34,27 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
 <ul>
     <li>Add text</li> 
     <li>Added progress bars</li>
+    <li>Two columns</li>
+</ul>
+
+<h3>Work Experience</h3>
+<ul>
+    <li>Add dates</li> 
+    <li>Add job titles</li>
+    <li>Add companies</li>
+    <li>Add links to companies</li>
+    <li>Use of glyphicons</li>
+    <li>background image with over lay</li>
+</ul>
+
+<h3>Portfolio</h3>
+<ul>
+    <li>Use of Thumbnail labels in Bootstrap 3</li> 
+    <li>Add job titles</li>
+    <li>Add companies</li>
+    <li>Add links to companies</li>
+    <li>Use of glyphicons</li>
+    <li>background image with over lay</li>
 </ul>
 
 
@@ -42,7 +63,7 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
     <li>Added dates</li> 
     <li>Added courses</li>
     <li>Added educational institutions with links</li> 
-    <li>Used glyphicons</li> 
+    <li>Use of glyphicons</li> 
     <li>background image with over lay</li> 
 </ul>
 
