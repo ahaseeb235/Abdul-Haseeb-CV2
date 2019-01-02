@@ -111,7 +111,7 @@ body {
 
 .callout-container {
     height: 100vh;
-    background: url('../images/headerbg.jpg') no-repeat center center fixed; 
+    background: url('images/headerbg.jpg') no-repeat center center fixed; 
     background-size: cover; 
     display: block;
     align-items: center;
@@ -278,7 +278,7 @@ body {
 
 .container-wrapper-wkexp {
     height: 100vh;
-    background: url('../images/wkexp.jpg') no-repeat bottom center fixed; 
+    background: url('images/wkexp.jpg') no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -326,7 +326,7 @@ body {
 
 .container-wrapper-edu {
     height: 100vh;
-    background: url('../images/featurebg1.jpg') no-repeat center center fixed; 
+    background: url('images/featurebg1.jpg') no-repeat center center fixed; 
     background-size: cover; 
     display: block;
     align-items: center;
