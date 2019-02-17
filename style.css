@@ -26,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 100, .70);
+    background-color: rgba(0, 0, 100, .90);
     border: 0;
 }
 
@@ -34,6 +34,7 @@ body {
     border-color: #fafafa;
 }
 
+ 
 .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-right: 30px;
@@ -118,6 +119,9 @@ body {
     color: #fafafa;
     background-color: orange;
 }
+
+
+
 
 
 /*
@@ -288,7 +292,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.3); 
 }
 
 .jumbotron {
@@ -470,7 +474,65 @@ body {
 
 /* portfolio */
 
-#portfolio {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#portfolio {
+    height: 100vh;
+    background-color: #FFF8D1;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.p-portfolio {
+    color: #d2d2d2;
+    font-size: 1em;
+}
+
+.header-wkexp {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fafafa;
+}
+
+.workexperience .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.time-linewkexp {
+    content: attr(dates);
+    color: orange;
+    font-weight: bold;
+}
+
+.container-wrapper-wkexp {
+    height: 100vh;
+    background: url('images/wkexp.jpg') no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 80px;
+    color: white;
+}
+
+.opaque-overlay-wkexp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.workexperience h3 {
+    text-align: left;
+    margin-bottom: 40px;
+}
 
 
 
@@ -757,14 +819,14 @@ footer .cv-pdf i:hover {
 
 /* For mobile phones: */
 
+/* 
 @media only screen and (max-width: 768px) {
   
   .navbar {
     width: 100%;
     background-color: #000064;
-    height: 100vh;
   }
-}
+} */
 
 
 /* Extra Things */
