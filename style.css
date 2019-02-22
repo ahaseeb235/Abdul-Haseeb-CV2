@@ -357,8 +357,9 @@ body {
 .header-skills {
     text-align: center;
     padding-bottom: 0px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-top: 120px;
+    padding-bottom: 30px;
     color: steelblue;
 }
 
@@ -374,10 +375,6 @@ body {
     height: 25px;
 }
 
-/* .rightside .progress {
-    display: inline-block;
-    margin-right: 50px;
-} */
 
 .progress-type {
     position: absolute;
@@ -476,63 +473,100 @@ body {
 
 #portfolio {
     height: 100vh;
-    background-color: #FFF8D1;
-    margin-top: 0px;
+    background-color: #f5f5f5;
     padding: 20px;
 }
 
 .p-portfolio {
-    color: #d2d2d2;
-    font-size: 1em;
+    color: #000064;
+    font-size: 1.5em;
 }
 
-.header-wkexp {
-    text-align: center;
-    padding-bottom: 40px;
-    color: #fafafa;
-}
-
-.workexperience .glyphicon {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.time-linewkexp {
-    content: attr(dates);
-    color: orange;
-    font-weight: bold;
-}
-
-.container-wrapper-wkexp {
-    height: 100vh;
-    background: url('images/wkexp.jpg') no-repeat bottom center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.portfolio-section {
+    background-color: #fff000; 
     background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    padding-top: 80px;
-    color: white;
+    padding-top: 50px;
+    color: #000064;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-.opaque-overlay-wkexp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+.portfolio .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    background-color: transparent;
+}
+
+.header-portfolio {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    color: #000064;
+}
+
+/*
+.portfolio-images {
+    width: 80%;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+}
+*/
+div.portfolio-images {
+  border: 1px solid #ccc;
+}
+
+div.portfolio-images:hover {
+  border: 1px solid #777;
+}
+
+div.portfolio-images img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.70);
+  }
 }
 
-.workexperience h3 {
-    text-align: left;
-    margin-bottom: 40px;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
 
 
 
@@ -613,9 +647,11 @@ body {
 footer {
     background-color: steelblue;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 150px;
     margin: 0;
-    align-items: center;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer .cv-pdf i {
@@ -632,30 +668,6 @@ footer .cv-pdf i:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-/*
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: orange;
-} */
 
 .links-social li a i:hover {
     background: orange;
@@ -772,62 +784,3 @@ footer .cv-pdf i:hover {
 }
 
 
-
-/* retrun to top */
-
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-}
-
-
-/* For mobile phones: */
-
-/* 
-@media only screen and (max-width: 768px) {
-  
-  .navbar {
-    width: 100%;
-    background-color: #000064;
-  }
-} */
-
-
-/* Extra Things */
-/* body {background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;} */
