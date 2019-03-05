@@ -46,6 +46,7 @@
 	          <li><a href="#workexperience">WORK EXPERIENCE</a></li>
 	          <li><a href="#portfolio">PORTFOLIO</a></li>
 	          <li><a href="#education">EDUCATION</a></li>
+	          <li><a href="#contact">CONTACT</a></li>
 	          <a href="files/AbdulHaseebCV.pdf" target="_blank" class="cv-pdf"><button type="button" class="btn btn-primary btn-lg btn-nav hidden-xs"> Download CV <i class="fa fa-download" aria-hidden="true"></i>  </button> </a>
 	        </ul> 
 	      </div> 
@@ -56,7 +57,7 @@
 
 <!-- callout header -->
 	<div class="container-fluid callout-container"> 
-      <div class="opaque-overlay aqua-gradient">&nbsp;</div>
+      <div class="opaque-overlay">&nbsp;</div>
        
       	  <div class="row">
             <div class="col-xs-12">
@@ -229,12 +230,12 @@
             
                 <div class="responsive">
                     <div class="column column col-xs-12">
-                  <div class="portfolio-images">
-                    <a target="#" href="images/portfolio1.jpg">
-                      <img src="images/portfolio1.jpg" alt="portfolio1">
-                    </a>
-                    <div class="desc">This image is for portfolio1</div>
-                  </div>
+                      <div class="portfolio-images">
+                        <a target="#" href="images/portfolio1.jpg">
+                          <img src="images/portfolio1.jpg" alt="portfolio1">
+                        </a>
+                        <div class="desc">This image is for portfolio1</div>
+                      </div>
                   </div>
                 </div>
                 
@@ -242,7 +243,7 @@
                       <div class="column column col-xs-12">
                           <div class="portfolio-images">
                             <a target="#" href="images/portfolio2.jpg">
-                              <img src="images/portfolio1.jpg" alt="portfolio1">
+                              <img src="images/portfolio2.jpg" alt="portfolio1">
                             </a>
                           <div class="desc">This image is for portfolio2</div>
                         </div>
@@ -252,7 +253,7 @@
                     <div class="column column col-xs-12">
                   <div class="portfolio-images">
                     <a target="#" href="images/portfolio3.jpg">
-                      <img src="images/portfolio1.jpg" alt="portfolio1">
+                      <img src="images/portfolio3.jpg" alt="portfolio1">
                     </a>
                     <div class="desc">This image is for portfolio3</div>
                   </div>
@@ -262,7 +263,7 @@
                     <div class="column column col-xs-12">
                   <div class="portfolio-images">
                     <a target="#" href="images/portfolio4.jpg">
-                      <img src="images/portfolio1.jpg" alt="portfolio1">
+                      <img src="images/portfolio4.jpg" alt="portfolio1">
                     </a>
                     <div class="desc">This image is for portfolio4</div>
                   </div>
@@ -319,46 +320,11 @@
         </div>
     </div>
 
- <!-- Modal -->
-        <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Let's get some work done!</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              
-              <!-- pop up modal message box-->
-              <div class="modal-body">
-                     <form>
-                      <div class="form-group">
-                        <label for="Email1">Email address</label>
-                        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted"><i>I will never share your email with anyone else</i></small>
-                      </div>
-                      <div class="form-group">
-                        <label for="Password">Password</label>
-                        <input type="password" class="form-control" id="Password" placeholder="Password">
-                      </div>
-                       <div class="form-group">
-                        <label for="message">Message</label>
-                        <input type="message" class="form-control" id="message" placeholder="Message">
-                      </div>
-                      
-                      <button type="submit" class="btn btn--red2 btn--cta2 center-block">Let's get in touch</button>
-                </form>
-              <!-- / pop up modal message box-->
-              </div>
-              
-            </div>
-          </div>
-        </div>
+ 
 
 <!--- Footer -->
     
-     <footer class="container-fluid footy-footer">
+     <footer id="contact" class="container-fluid footy-footer">
             <div class="row">
                 <div class="col-sm-6">
                     <h4 class="uppercase general-sub">Contact Details</h4>
@@ -403,20 +369,55 @@
                     </form>
                 </div>
        <!--- / Footer contact form -->     
-       
-          
-                
-         
-             
      </footer>
      <div class="row">
               <div class="container-fluid">
                 <p class="footnote"><i>*This is a frontend Milestone project for Code Institute</i></p>
               </div>
            </div> 
+
+
           
     
     <!--- / Footer -->
+<!-- Modal -->
+        <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Let's get some work done!</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              
+              <!-- pop up modal message box-->
+              <div class="modal-body">
+                     <form>
+                      <div class="form-group">
+                        <label for="Email1">Email address</label>
+                        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted"><i>I will never share your email with anyone else</i></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                      </div>
+                       <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="message" class="form-control" id="message" placeholder="Message">
+                      </div>
+                      
+                      <button type="submit" class="btn btn--red2 btn--cta2 center-block">Let's get in touch</button>
+                </form>
+              <!-- / pop up modal message box-->
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	   
