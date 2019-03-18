@@ -1,4 +1,38 @@
-This is my first frontend project - <strong>Abdul Haseeb CV.</strong> 
+<h1>Abdul Haseeb Portfolio</h1>
+
+This is my first project - User Centric Frontend Development - <strong>Abdul Haseeb CV</strong> for <a href="https://codeinstitute.net/">Code Institute</a>
+
+<h2>Demo</h2>
+To view a live demo of the website project, please click <a href="https://ahaseeb235.github.io/Abdul-Haseeb-CV2"> here.</a> 
+
+<h2>UX</h2>
+My goal in the design is to have a single page layout with all the details, thereby, making it easily accesible for visitors. 
+
+Additionally, visitors can also download my CV and contact me directly. 
+The contact sections are made available both at the start of the page and at the end.
+
+Images are my own, and the combination of navy blue, steel blue, light gray and orange was used to create contrast and easy visibility accross devices.  
+
+<h2>Technologies Used</h2>
+1. HMTL
+2. CSS
+3. Bootstrap 3.3.7
+
+<h2>Features</h2>
+Scrollspy feature Bootstrap has been used in the site. Ref <a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
+"> here.</a>
+
+<h2>Testing</h2>
+
+<h2>Deployment</h2>
+
+<h2>Credits</h2>
+
+<h2>Content</h2>
+
+<h2>Media</h2>
+
+<h2>Acknowledgments</h2>
 
 The code and structure is based on bootstrap, and I have made changes to the html and css
 of the code. 

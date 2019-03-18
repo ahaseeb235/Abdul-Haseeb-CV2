@@ -188,15 +188,14 @@ body {
 
 /* Skills section */
 
-
 #skills {
-    height: 100vh;
+    height: 100%;
     background-color: #FFF8D1;
     align-items: center;
     padding: 20px;
-    padding-top: 15%;
+    padding-top: 10%;
     width: 100%;
-}
+} 
 
 @media only screen and (max-width: 960px) {
   #skills {
