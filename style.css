@@ -173,7 +173,6 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    
     background-color: orange;
     color: #fafafa;
     border-color: orange;
@@ -189,12 +188,15 @@ body {
 /* Skills section */
 
 #skills {
-    height: 100%;
-    background-color: #FFF8D1;
+    height: 100vh;
+    background-color: #ececec;
     align-items: center;
     padding: 20px;
     padding-top: 10%;
     width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 } 
 
 @media only screen and (max-width: 960px) {
@@ -211,7 +213,6 @@ body {
 
 .header-skills {
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
     color: steelblue;
 }
@@ -222,8 +223,6 @@ body {
     padding: 20px 20px 0px 20px;
     border: 1px solid #313131;
     border-radius: 10px;
-    
-    
 }
 
 .progress {
@@ -247,7 +246,6 @@ body {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
-    background-color: #FFF8D1;
 }
 
 
@@ -278,11 +276,11 @@ body {
 
 .wkexp-container {
     height: 100vh;
-    background: url('images/wkexp.jpg') no-repeat bottom center fixed / cover; 
-    display: flex;
+    background: url(images/wkexp.jpg) no-repeat bottom center fixed / cover; 
+    display: block;
     align-items: center;
     position: relative;
-    padding-top: 10%;
+    padding-top: 15%;
     color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -320,14 +318,15 @@ body {
 /* portfolio */
 
 #portfolio {
-    height: 100vh;
+    height: 100%;
     background-color: #ececec;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     position: relative;
     padding-top: 10%;
-    color: #313131;
+    color: #fafafa;
     width: 100%;
+    padding-bottom: 7%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
@@ -341,19 +340,17 @@ body {
 }
 
 .p-portfolio {
-    color: #000064;
+    color: steelblue;
     font-size: 1.5em;
 }
 
 .portfolio-section {
-    background-color: #fff000; 
     background-size: cover; 
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: flex-start;
     position: relative;
     padding-top: 50px;
-    color: #000064;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -361,7 +358,7 @@ body {
 
 .portfolio .glyphicon {
     display: block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
     background-color: transparent;
@@ -369,36 +366,31 @@ body {
 
 .header-portfolio {
     text-align: center;
-    padding-bottom: 0px;
-    padding-top: 30px;
     padding-bottom: 30px;
-    color: #000064;
+    color: steelblue;
 }
 
-div.portfolio-images {
-  border: 2px solid #d0d0d0;
-  box-shadow: 0 15px 59px -20px rgba(0,0,0,0.80);
+.portfolio-images img {
+    box-shadow: 0 81px 100px -27px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: auto;
 }
 
-div.portfolio-images:hover {
+.portfolio-images:hover {
   border: 1px solid #777;
 }
 
-div.portfolio-images img {
-  width: 100%;
-  height: auto;
-}
 
-div.desc {
-  padding: 20px;
+
+.desc {
+  padding: 15px;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
   background-color: #000064;
-  color: orange;
+  color: #fafafa;
 }
 
 .responsive {
-  padding: 0 6px;
   float: left;
   width: 25%;
 }
@@ -427,11 +419,11 @@ div.desc {
 
 .container-wrapper-edu {
     height: 100vh;
-    background: url('images/featurebg1.jpg') no-repeat center center fixed / cover; 
-    display: flex;
+    background: url(images/featurebg1.jpg) no-repeat center center fixed / cover; 
+    display: block;
     align-items: center;
     position: relative;
-    padding-top: 10%;
+    padding-top: 15%;
     color: white;
     width: 100%;
     -webkit-background-size: cover;
