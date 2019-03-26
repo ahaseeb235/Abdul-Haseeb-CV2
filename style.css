@@ -20,7 +20,7 @@ body {
 /* ----------------------- */
 
 .navbar {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,11 +31,6 @@ body {
     margin-bottom: 0px;
     box-shadow: 0 15px 59px -20px rgba(0,0,0,0.80);
 }
-
-.navbar-default .navbar-collapse {
-    border-color: #fafafa;
-}
-
  
 .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -45,22 +40,21 @@ body {
     border-color: transparent;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #d4d4d4;
+}
+
 .navbar-default .navbar-toggle:hover {
     background-color: orange;
     border-color: orange;
 } 
 
 .navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 14px 9px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    padding: 10px 8px;
+}
+
+.icon-bar {
+   background-color: #fafafa; 
 }
 
 .navbar-default .navbar-nav a {
@@ -84,10 +78,10 @@ body {
 .navbar-nav .active:hover {
     background-color: orange;
     border-color: orange;
-    transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -webkit-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
 } 
 
 .btn-nav {
@@ -102,12 +96,10 @@ body {
 
 .btn-nav:hover {
     background-color: orange;
-    border-color: orange;
-    text-decoration: none;
-    transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -webkit-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -118,39 +110,29 @@ body {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fafafa;
     background-color: orange;
 }
 
-
-
-
 /* callout header */
-
 
 .callout-container {
     height: 100vh;
-    min-height: 450px;
     background: linear-gradient(rgba(93, 93, 93, 0.45),rgba(0, 0, 0, 0.18)), url(images/headerbg.jpg) no-repeat center center / cover; 
     align-items: center;
-    padding-top: 10%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
-
 .jumbotron {
     background-color: transparent;
     padding-top: 20%;
     text-align: center;
-    
  }
 
 .jumbotron .h1, .jumbotron h1 {
     color: #fafafa;
 }
-
 
 .fa-download, .fa-envelope {
     color: #fafafa;
@@ -158,24 +140,24 @@ body {
 
 /* callout buttons */
 
-.btn--cta {
+.btn--cm {
     font-weight: normal;
     border-radius: 25px;
     width: 175px;
     margin:5px;
 }
 
-.btn--red {
+.btn--cm {
     color: #fafafa;
     background-color: transparent; 
     border-color: #fafafa;
     margin: 5px;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+.btn--cm:hover,
+.btn--cm:active,
+.btn--cm:focus,
+.btn--cm:active:focus {
     background-color: orange;
     color: #fafafa;
     border-color: orange;
@@ -186,15 +168,12 @@ body {
 }
 
 
-
-
 /* Skills section */
 
 #skills {
     height: 100vh;
     background-color: #ececec;
     align-items: center;
-    padding: 20px;
     padding-top: 10%;
     width: 100%;
     -webkit-background-size: cover;
@@ -255,7 +234,16 @@ body {
 /* work experience */
 
 #workexperience {
-    background-color: none;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 120, 0.85),rgba(0, 0, 0, 0.45)), url(images/wkexp.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    display: block;
+    padding: 10% 0% 10% 0%;
+    align-items: center;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
 }
 
 .header-wkexp {
@@ -277,18 +265,6 @@ body {
     font-weight: bold;
 }
 
-.wkexp-container {
-    height: 100vh;
-    background: linear-gradient(rgba(93, 93, 93, 0.45),rgba(0, 0, 0, 0.18)), url(images/wkexp.jpg) no-repeat bottom center fixed; 
-    display: block;
-    align-items: center;
-    position: relative;
-    padding-top: 15%;
-    color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; 
-}
 
 @media only screen and (max-width: 960px) {
   #workexperience {
@@ -298,16 +274,6 @@ body {
 }
 
 
-.opaque-overlay-wkexp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.70);
-    
-} 
-
 .workexperience h3 {
     text-align: left;
     margin-bottom: 40px;
@@ -316,21 +282,16 @@ body {
 }
 
 
-
-
-
 /* portfolio */
 
 #portfolio {
     height: 100vh;
     background-color: #ececec;
-    padding: 10px;
     align-items: center;
     position: relative;
-    padding-top: 10%;
     color: #fafafa;
+    padding: 10% 0% 10% 0%;
     width: 100%;
-    padding-bottom: 7%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
@@ -339,7 +300,6 @@ body {
 @media only screen and (max-width: 960px) {
   #portfolio {
     height: 100%;
-    padding-bottom: 7%;
   }
 }
 
@@ -411,23 +371,12 @@ body {
 /* education */
 
 #education {
-    background-color: none;
-}
-
-@media only screen and (max-width: 960px) {
-  #education {
-    height: 100%;
-    padding-bottom: 7%;
-  }
-}
-
-.container-wrapper-edu {
     height: 100vh;
-    background: url(images/featurebg1.jpg) no-repeat center center fixed; 
+    background: linear-gradient(rgba(0, 0, 120, 0.85),rgba(0, 0, 0, 0.45)), url(images/bg_ed.jpg) no-repeat top center fixed; 
+    background-size: cover;
     display: block;
     align-items: center;
-    position: relative;
-    padding-top: 15%;
+    padding: 10% 0% 10% 0%;
     color: white;
     width: 100%;
     -webkit-background-size: cover;
@@ -435,17 +384,11 @@ body {
     -o-background-size: cover;
 }
 
-.opaque-overlay-edu {
-    position: absolute;
-    top: 0;
-    left: 0;
+@media only screen and (max-width: 960px) {
+  #education {
     height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.50);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}    
+  }
+}
 
 .header-education {
     text-align: center;
@@ -470,8 +413,6 @@ body {
     font-size: 45px;
     line-height: 45px;
 }
-
-
 
 
 /* general links */
@@ -536,9 +477,6 @@ body {
     height: 100px;
 }
 
-#footer-details {
-    margin: 20px;
-}
 
 .footy-footer h4 {
     color: orange;
@@ -559,7 +497,7 @@ body {
     margin-bottom: 50px;
 }
 
-.btn--red1 {
+.btn--cm1 {
     color: #fafafa;
     background-color: transparent; 
     border-color: #fafafa;
@@ -569,10 +507,10 @@ body {
     float: none;
 }
 
-.btn--red1:hover,
-.btn--red1:active,
-.btn--red1:focus,
-.btn--red1:active:focus {
+.btn--cm1:hover,
+.btn--cm1:active,
+.btn--cm1:focus,
+.btn--cm1:active:focus {
     text-decoration: none;
     background-color: orange;
     color: #fafafa;
@@ -591,7 +529,7 @@ body {
     margin-bottom: 50px;
 }
 
-.btn--red2 {
+.btn--cm2 {
     color: #fafafa;
     background-color: #e59400; 
     border-color: #fafafa;
@@ -601,10 +539,10 @@ body {
     float: none;
 }
 
-.btn--red2:hover,
-.btn--red2:active,
-.btn--red2:focus,
-.btn--red2:active:focus {
+.btn--cm2:hover,
+.btn--cm2:active,
+.btn--cm2:focus,
+.btn--cm2:active:focus {
     text-decoration: none;
     background-color: orange;
     color: #fafafa;
