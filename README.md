@@ -12,10 +12,9 @@ To view a live demo of the website project, please click <a href="https://ahasee
 <h2>UX</h2>
 The objective here is to have a single page layout with all the details, thereby, making it easily accesible for visitors on the site. 
 
-Additionally, visitors can also download my CV and contact me directly. 
-The options for contact are made available both at the start of the page and at the end.
+Additionally, visitors can also download my CV and contact me directly. Visitors are prompted to contact me both at the start and at the end of the page.
 
-Images are my own, and the combination of navy blue, steel blue, light gray and orange was used to create contrast and easy visibility accross devices.  
+Images are my own, and the combination of navy blue, steel blue, light gray and orange was used to create contrast and easy visibility across devices. 
 
 <h2>Technologies Used</h2>
 
@@ -24,33 +23,71 @@ Images are my own, and the combination of navy blue, steel blue, light gray and 
 3. Bootstrap 3.3.7
 
 <h2>Features</h2>
-Scrollspy feature Bootstrap has been used in the site. Ref <a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
-"> here.</a>
+Scrollspy feature of Bootstrap has been used in the site. Navbar is fixed on top and collapses for view on devices with smaller screens, tablets and mobile phones. 
+
+Inspiration for the design and scrollspy was taken from Ref <a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h"> here.</a>
+
+<h4>Features for future Development</h4>
+The possibilities are tremendous. I would have liked to include features such as:
+1. Back to top arrow
+2. Animations on progress bars/graphs
+3. Videos showcasing my work and progress
 
 <h2>Testing</h2>
-The 
+The site was designed with "mobile first" user in mind. 
+
+We jump in straight into "Why Hire Me" and skill section. There is a lot of room potential in this section, where I could showcase my skills in greater detail using 
+enhanced visual aids such as progress circles and more detail on the respective skill level.
+
+The Skills section is followed by the Work Experience section, which is followed by my portfolio to showcase some of the projects that I have worked on. I would have
+liked to add more details on the projects for potential employers and recruiters. 
+
+Contact buttons in the top of the page (modal popup) and a contact form at the bottom of the page is intended to prompt employers/recruiters to contact me without having
+to move to any particular contacts section. They can also download my CV from the button made available in the navbar and in the jumbotron as well. 
+
+Social media links and contact details are at the bottom of the page. 
+
+All links are set to open in a new tab and the CV will download to your default browser or folder. All links are active. 
+
+To ensure compatibility and responsiveness, the site was tested across multiple browsers including Chrome, Safari, Internet Explorer, FireFox. 
+The site was also tested on multiple mobile devices including iPhone 5/6/7: Chrome and Safari; and Samsung Galaxy S5.S6,S7: Chrome and Samsung Internet Brower. 
+Testing was also carried out to enure reponsiveness in both portrait and landscape view. 
+
+Modal popup and contact form is not active. It needs further development. 
 
 <h2>Deployment</h2>
+To deploy the site, I have hosted it using Github pages, directly from the master branch. In accordance with the facility of updating the page, all updates will be 
+automatically occur upon new commits being pushed. 
+
+
 
 <h2>Credits</h2>
 
-<h2>Content</h2>
+<h4>Content</h4>
+All content on the website is written by me. 
 
-<h2>Media</h2>
+<h4>Media</h4>
+All images used in the website are my own, taken during walks or hikes using Samsung Galaxy S7 phone camera. Filters have been applied to adjust the images to match
+the navbar. 
 
-<h2>Acknowledgments</h2>
+The logos in the portfolio section are actual logos representing existing or past businesses and projects that I have worked on in the past. These logos/images are
+linked to live websites/webpages. I have NOT worked on these websites, but rather created the logos and print material. 
 
-The code and structure is based on bootstrap, and I have made changes to the html and css
-of the code. 
+<h4>Acknowledgments</h4>
+
+The code and structure is based on Bootstrap 3.3.7, and I have made changes to the html and css of the code. 
+
+Use of Scrollspy in Bootstrap <a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h"> here.</a>
+
+
+<h3>Fonts:</h3> 
+Roboto; Sans Serif;
+
+<h2>Further Notes</h2>
 
 <strong>Site Structure:</strong> 
 
 Navbar >> Callout Section >> Skills >> Portfolio >> Work Experience >> Education >> Footer
-
-Use of Scrollspy in Bootstrap 
-https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
-
-<h3>Fonts:</h3> Roboto; Sans Serif;
 
 <h3>Navbar</h3>
 <ul>
