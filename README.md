@@ -1,6 +1,6 @@
 <h1>Abdul Haseeb Portfolio</h1>
 
-This is my first project - User Centric Frontend Development - <strong>Abdul Haseeb CV</strong> for <a href="https://codeinstitute.net/">Code Institute</a>
+This is my first project - User Centric Frontend Development - <strong>Abdul Haseeb CV</strong> 
 
 The purpose of the project is to demonstrate understanding and implementation of the various subjects covered in the course so far. 
 
